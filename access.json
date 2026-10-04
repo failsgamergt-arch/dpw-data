@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "kdf": {
+    "name": "PBKDF2",
+    "hash": "SHA-256",
+    "iterations": 600000
+  },
+  "token": {
+    "iv": "OjofekIjx0Owuh6P",
+    "ct": "4YW/mya1B8Y4hNhCvF9VVB9QyDMYaqwqbYo06KqOwy8STTYAxxEIl0aUzuLMOPIF/tQm03FEXWGsbGZOgY5+L4dBjtGeaXbCH45So31rOADQVlzj+F2aGsPl5BDYD+LwgOJUCDunYaYZoYXzuQ=="
+  },
+  "admins": [
+    {
+      "user": "admin",
+      "salt": "zUCCp+2sRpkvyeWgTvcLHQ==",
+      "iv": "J0aV2uZJ/CUrAYAN",
+      "ct": "40pqSLroErLQpcVl5bKdMC9RsIOKO19EKcu7RymhWE4L90zDWja7vbOhNZFVHR1C"
+    }
+  ],
+  "updated": "2026-10-03T14:46:57.092Z"
+}
