@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "kdf": {
+    "name": "PBKDF2",
+    "hash": "SHA-256",
+    "iterations": 600000
+  },
+  "kid": "e2082685e7cf386d",
+  "principals": [
+    {
+      "id": "cli-desktop-tgf72k7",
+      "kind": "cli",
+      "pub": {
+        "x": "kcxHo8q-LfIAPBe6x5530todR0Ras_cyvWPFr2npxgY",
+        "y": "BCfzb7hOfitU8DMnB7GZY1b7LypgYO25m7FAox1a-A8"
+      },
+      "key": null,
+      "wrap": {
+        "kid": "e2082685e7cf386d",
+        "eph": {
+          "x": "8-rgzh3flx9p17RZzvIq5_XtvpmjEMzRMthy8ngFcbg",
+          "y": "Qm1yOQzQq-ZVpD813tDtcQNG94N5XW2oxe4BqAiC9OE"
+        },
+        "iv": "KggHqK4KFtty2Gf+",
+        "ct": "gX42yLC4ysFXBMtZVFyy/aObyIoY0kiQV5/O36qDqD09xQGfOZ7MsSPLxvDRz603"
+      },
+      "auth": "q60wN5dXb4HR7dnMEx0uQwnQF+AVVp7+N2Yk9kwFoOE="
+    }
+  ],
+  "history": {},
+  "meta": null,
+  "updated": "2026-11-11T22:54:28.160Z"
+}
